@@ -1,7 +1,11 @@
 class BalancedParentheses:
     def __init__(self, parentheses):
         self.parentheses = parentheses
-        self.balance_dict = {"(": ")", "{": "}", "[": "]"}
+        self.balance_dict = {
+            "(": ")", 
+            "{": "}", 
+            "[": "]"
+        }
         self.brackets = []
 
     def process(self):
